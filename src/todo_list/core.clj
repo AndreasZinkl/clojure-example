@@ -90,7 +90,8 @@
   [port-number]
   (webserver/run-jetty
    app
-   {:port  (Integer. port-number)}))
+   {:port  (Integer. port-number)
+    :join? false}))
 
 (defn -dev-main
   "A very simple web server using Ring & Jetty,
