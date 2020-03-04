@@ -3,5 +3,5 @@
             [todo-list.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
+  (testing "TODO"
     (is (= 0 1))))
